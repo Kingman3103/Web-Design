@@ -1,0 +1,138 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: "Helvetica Neue", serif;
+}
+
+h1 {
+  font-size: 90px;
+  margin-top: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5em;
+  font-weight: normal;
+  color: #66BFBF;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+hr{
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 5%;
+  margin: 100px auto;
+}
+
+a{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #EAF6F6;
+}
+
+.top-container {
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 70px;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  position: relative;
+  paddinG: 50px 0 20px;
+}
+
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+  }
+
+.top-cloud {
+    position: absolute;
+    right: 350px;
+    top: 50px;
+  }
+
+  .pictureprofile {
+    margin: 50px auto 5px;
+    height: 200px;
+    width: 200px;
+  }
+
+.profile-text{
+  width: 30%;
+  margin:auto;
+  line-height: 2;
+ }
+
+.football {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+ }
+
+.Webdesign {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+ }
+
+.skill-row {
+  width: 40%;
+  margin: 50px auto 50px;
+  text-align: left;
+  line-height: 2;
+ }
+
+ .myButton {
+	box-shadow: 0px 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:15px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.footer-link {
+  color: #11999E;
+ }
+
+ .copyright{
+   color: #EAF6F6;
+   font-size: 0.75rem;
+   padding: 20px 0;
+ }
